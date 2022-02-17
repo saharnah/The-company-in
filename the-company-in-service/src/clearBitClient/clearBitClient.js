@@ -1,5 +1,5 @@
 const axios = require('axios');
-const accessToken = 'sk_bd16fff876554c3a767f98cf263121b4';
+const accessToken = '';
 const baseClientUrl = 'https://company.clearbit.com/v2/companies'
 
 const fetchData = async (domain) => {
