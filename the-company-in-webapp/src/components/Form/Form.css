@@ -1,0 +1,23 @@
+.form-container {
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+    font-family: 'PT Sans', sans-serif;
+    box-shadow: rgb(35 55 80) 0px 6px 12px;
+    margin: 50px;
+    min-height: 600px;
+    padding: 10px;
+}
+
+.form-header {
+    display: flex;
+}
+
+.form-body {
+    padding: inherit;
+    display: grid;
+}
+
+.add-icon {
+    margin: 8px 3px;
+    cursor: pointer;
+}

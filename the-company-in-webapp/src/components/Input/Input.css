@@ -1,0 +1,35 @@
+.input-container {
+    margin: 5px;
+    position: relative;
+}
+
+input {
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    box-sizing: border-box;
+    color: #333;
+    outline: none;
+    padding: 8px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance:textfield;
+}
+
+.input-error {
+    color: #d90d0d;
+    font-size: 12px;
+    position: absolute;
+    left: 0px;
+    top: 37px;
+}
